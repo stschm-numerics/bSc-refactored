@@ -1,11 +1,9 @@
 # BACHELOR THESIS REFACTORED
-Dieses Repository beinhaltet Teile des Codes aus meiner Bachelorarbeit, zum Thema  
-"Tschebyschev Approximation differenzierbarer und analytischer Funktionen".    
-Sie baute wesentlich auf den Inhalten des Buches "Approximation theory and practice" von N. Trefethen und  
-dem MATLAB-Paket Chebfun auf.  
-
+Dieses Repository beinhaltet Teile des Codes aus meiner Bachelorarbeit, zum Thema "Tschebyschev Approximation differenzierbarer und analytischer Funktionen".
+Sie baute wesentlich auf den Inhalten des Buches "Approximation theory and practice" von N. Trefethen und dem MATLAB-Paket Chebfun auf.  
+  
 In diesem Projekt möchte ich den ursprünglichen Code verbessern. Der initial commit entspricht dem Stand des Codes in meiner Bachelorarbeit.  
-Ich habe unter dem Zeitdruck der Abgabefrist nur einfache Skripte geschrieben, die irgendwie die benötigten Plots generieren sollten.  
+Ich habe unter dem Zeitdruck der Abgabefrist nur einfache Skripte geschrieben, die irgendwie die benötigten Plots generieren sollten.
 Nun möchte ich das Ganze professioneller angehen, besser strukturieren und modularisieren und nebenbei auch den Umgang mit GitHub üben.  
 
 ## Geplant ist:  
@@ -15,7 +13,7 @@ Nun möchte ich das Ganze professioneller angehen, besser strukturieren und modu
 - **Visualisierung:** eventuell Implementierung einer UI mit dem  MATLAB App Designer []
 
 ## Voraussetzungen
-Der Code ist geschrieben und getestet mit MATLAB (R2025b) und Chebfun (v5.7.0).
+Der Code ist geschrieben und getestet mit MATLAB (R2025b) und Chebfun (v5.7.0).  
 **Links:**  
 - [MathWorks](https://de.mathworks.com/)
 - [Chebfun Projekt](https://www.chebfun.org/) oder [GitHub](https://github.com/chebfun)
