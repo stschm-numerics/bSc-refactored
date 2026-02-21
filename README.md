@@ -15,9 +15,10 @@ Nun möchte ich das Ganze professioneller angehen, besser strukturieren und modu
 - **Visualisierung:** eventuell Implementierung einer UI mit dem  MATLAB App Designer []
 
 ## Voraussetzungen
-Um den Code auszuführen werden MATLAB und das Chebfun-Paket benötigt.  
-- **MATLAB:** Alles rund um MATLAB, inklusive Installationsanleitung, gibt es bei [MathWorks](https://de.mathworks.com/)
-- **Chebfun:** Das Chebfun-Paket, inklusive Installationsanleitung, gibt es beim [Chebfun Projekt](https://www.chebfun.org/) oder auf [GitHub](https://github.com/chebfun)
+Der Code ist geschrieben und getestet mit MATLAB (R2025b) und Chebfun (v5.7.0).
+**Links:**  
+- [MathWorks](https://de.mathworks.com/)
+- [Chebfun Projekt](https://www.chebfun.org/) oder [GitHub](https://github.com/chebfun)
 
 ## Struktur 
 - **/funktionen:** hier befinden sich alle benötigten Funktionen
