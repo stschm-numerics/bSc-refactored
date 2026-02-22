@@ -7,10 +7,10 @@ Ich habe unter dem Zeitdruck der Abgabefrist nur einfache Skripte geschrieben, d
 Nun möchte ich das Ganze professioneller angehen, besser strukturieren und modularisieren und nebenbei auch den Umgang mit GitHub üben.  
 
 ## Geplant ist:  
-- **Modularisierung:** Umstellung von einfachen Skripts auf wiederverwendbare Funktionen []
-- **Dokumentation:** Kommentierung jeder Funktion, sowieso Neubenennung einiger Variablen []
-- **Eingabe:** Umstellung der Dateneingabe auf die Konsole []
-- **Visualisierung:** eventuell Implementierung einer UI mit dem  MATLAB App Designer []
+- [ ] **Modularisierung:** Umstellung von einfachen Skripts auf wiederverwendbare Funktionen
+- [ ] **Dokumentation:** Kommentierung jeder Funktion, sowieso Neubenennung einiger Variablen
+- [ ] **Eingabe:** Umstellung der Dateneingabe auf die Konsole
+- [ ] **Visualisierung:** eventuell Implementierung einer UI mit dem  MATLAB App Designer
 
 ## Voraussetzungen
 Der Code ist geschrieben und getestet mit MATLAB (R2025b) und Chebfun (v5.7.0).  
