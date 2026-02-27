@@ -2,7 +2,7 @@
 function chebTest(f,v)
 nn = 2 * round (2.^(0:10) ); % verschiedene Approximationsgrade 2 - 2048
 [errorInt, errorProj] = approx_function(f,nn);
-figure;
+img = figure;
 % Erster Subplot | Konvergenzordnung und Fehler
 ax1 = subplot(1,2,1); 
 logLogPlot(ax1, nn, nn.^(-v), 'Konvergenzvergleich'); % Plot der Konvergenzordnung
@@ -12,4 +12,13 @@ logLogPlot(ax1, nn, errorProj, 'Konvergenzvergleich'); % Plot des Projektionsfeh
 hold off
 % Zweiter Subplot | die eigentliche Funktion
 subplot (1,2,2) , plot(f), axis ([-1 1 -1 1]), title('Funktion f')
+
+% Bilddatei erstellen
+zielOrdner = 'C:\ZDB\GitHub\bSc-refactored\ergebnisse';
+fileName = ['numTest-', '.png'];
+gesamtPfad = fullfile(zielOrdner,fileName);
+% .png erstellen und speichern
+exportgraphics(img, gesamtPfad) 
+% figure automatisch schließen
+close(img)
 end
