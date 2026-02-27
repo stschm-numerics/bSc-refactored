@@ -1,5 +1,5 @@
 % numerische Tests
-function chebTest(f,v)
+function chebTest(f,v,dateiName)
 nn = 2 * round (2.^(0:10) ); % verschiedene Approximationsgrade 2 - 2048
 [errorInt, errorProj] = approx_function(f,nn);
 img = figure;
@@ -15,7 +15,7 @@ subplot (1,2,2) , plot(f), axis ([-1 1 -1 1]), title('Funktion f')
 
 % Bilddatei erstellen
 zielOrdner = 'C:\ZDB\GitHub\bSc-refactored\ergebnisse';
-fileName = ['numTest-', '.png'];
+fileName = ['numTest-', dateiName, '.png'];
 gesamtPfad = fullfile(zielOrdner,fileName);
 % .png erstellen und speichern
 exportgraphics(img, gesamtPfad) 
