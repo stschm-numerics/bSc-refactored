@@ -4,7 +4,7 @@ nn = 2 * round (2.^(0:10) ); % verschiedene Approximationsgrade 2 - 2048
 [errorInt, errorProj] = approx_function(f,nn);
 img = figure;
 % Erster Subplot | Konvergenzordnung und Fehler
-ax1 = subplot(1,2,1); 
+ax1 = subplot(1,2,1);
 logLogPlot(ax1, nn, nn.^(-v), 'Konvergenzvergleich'); % Plot der Konvergenzordnung
 hold on
 logLogPlot(ax1, nn, errorInt, 'Konvergenzvergleich'); % Plot des Interpolationsfehlers
@@ -18,7 +18,7 @@ zielOrdner = 'C:\ZDB\GitHub\bSc-refactored\ergebnisse';
 fileName = ['numTest-', dateiName, '.png'];
 gesamtPfad = fullfile(zielOrdner,fileName);
 % .png erstellen und speichern
-exportgraphics(img, gesamtPfad) 
+exportgraphics(img, gesamtPfad)
 % figure automatisch schließen
 close(img)
 end
