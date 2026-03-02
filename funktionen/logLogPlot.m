@@ -1,7 +1,13 @@
-% Funktion zum Plotten
 function h = logLogPlot(ax, x, y, titel)
-% Variablennamen für Legende
-varName = inputname(3);
+% EINGABE:    ax der entsprechende Subplot
+%             x Array mit Approximationsgraden
+%             y Array der Approximationsfehler
+%             titel gewünschter Name des Subplots
+% 
+% AUSGABE:    h den Parametern entsprechender loglog-Plot
+% 
+% BEISPIEL:   logLogPlot(ax1, nn, errorInt, 'Konvergenzvergleich');
+varName = inputname(3); % Variablennamen für Legende
 if isempty(varName)
     varName = 'Konvergenzordnung';
 end

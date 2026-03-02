@@ -1,5 +1,11 @@
-% numerische Tests
 function chebTest(f,v,dateiName)
+% CHEBTEST berechnet tschbeyschev Approximationen, deren Fehler und erstellt davon einen loglog-Plot
+% 
+% EINGABE:    f die zu approximierende Funktion
+%             v die Differentiationsklasse von f
+%             dateiName Name der Bilddatei mit den Ergebnissen
+% 
+% AUSGABE:    Eine Bilddatei mit den Plots der Konvergenz und der Funktion f selbst
 nn = 2 * round (2.^(0:10) ); % verschiedene Approximationsgrade 2 - 2048
 [errorInt, errorProj] = approx_function(f,nn);
 img = figure;
